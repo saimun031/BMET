@@ -1,0 +1,138 @@
+.search-img{
+    width: 86px;
+    height: 84px;
+    margin-top: -6%;
+    margin-left: 92%;
+}
+  .search input{
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 317px;
+    height: 50px;
+    margin-left: 70%;
+  } 
+    input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #032497;
+  }
+.text1{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+}
+.listhead{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+margin-left: 30.5%;
+}
+.listhead span{
+margin-left: 13%;
+}
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 0px;
+  }
+  .img img{
+    border: 1px solid black;
+    margin-left: 14%;
+  }
+  .p{
+    color: white;
+    background-color: #103695;
+    padding: 5px;
+    margin-right: 30%;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+  }
+    .p1{
+    color: white;
+    background-color: #103695;
+    padding: 5px;
+    margin-right: 30%;
+       font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+  
+  }
+  p{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+  }
+  .span{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+color: black;
+  }
+  .grid{
+    margin-top: 10%;
+  }
+  .span1{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+color: #00831D;
+  }
+  hr{
+    border:1.8px solid #07070757;
+  }
+  @media only screen and (max-width: 650px) {
+       .search input{
+    margin-left: 2%;
+  }
+    .search-img{
+    margin-top: -22%;
+    margin-left: 81%;
+  }
+.listhead{
+    margin-left: 0%;
+}
+.bar{
+  margin-top:250%;
+   margin-left:-200%;
+}
+.bar1{
+  margin-top:700%;
+   margin-left:-350%;
+}
+.bar2{
+  margin-top:30%;
+   margin-left:-200%;
+}
+.bar3{
+  margin-top:400%;
+   margin-left:-350%;
+}
+  }
+    @media only screen and (min-width: 2020px){
+    .search-img{
+    margin-top: -4%;
+    margin-left: 84.5%;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 1230px) {
+.search input {
+    margin-left: 25%;
+}
+.search-img{
+    margin-top: -10.5%;
+    margin-left: 63%;
+}
+.img img {
+    border: 1px solid black;
+    margin-left: -5%;
+    width:160px;
+    padding:10px;
+}
+  }

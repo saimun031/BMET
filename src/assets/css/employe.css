@@ -1,0 +1,151 @@
+.cards{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(250, 247, 247);
+    
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0px;
+  }
+  label{
+font-family: Gilroy-Medium;
+font-size: 16px;
+line-height: 19px;
+color: #26323866;
+  }
+select{
+    margin-left: 6%;
+    /* width: auto; */
+height: 50px;
+border-radius: 8px;
+border: none;
+padding: 15px;
+/* padding-right: 10px; */
+
+}
+input{
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+    margin-left: 35%;
+    }
+    
+    input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #032497;
+    }
+    .search-img{
+    width: 86px;
+    height: 84px;
+    margin-top: -21%;
+    margin-left: 75%;
+    }
+
+.table{
+    width: 100%;
+}
+.tr{
+    border-radius: 8px;
+}
+    .table th{
+      font-style: Gilroy-Bold;
+      padding: 0px 5px;
+      font-size: 14px;
+      line-height: 16.41px;
+      padding: 15px;
+      text-align: center;
+     color: #263238CC;
+     /* border-radius: 8px; */
+      background-color: white;
+    }
+  td{
+    font-style: Poppins;
+      font-size: 14px;
+      line-height: 21px;
+font-weight: 400;
+      text-align: center;
+      color: white;
+      background-color: #163E93;
+   height: 57px;
+  }
+
+  .search-container {
+    float: right;
+    /* border: 1px; */
+  }
+  /* .links{
+    text-decoration: none;
+    color:white;
+  } */
+  a{
+    text-decoration: none;
+    color:white;
+  }
+       .overflow{
+     overflow-x:auto;
+     }
+@media only screen and (max-width: 650px) {
+
+     .overflow{
+     overflow-x:auto;
+     }
+ .cards {
+     padding: 0px; 
+  
+}
+select{
+    height: auto;
+    width:90px;
+    font-size: 10px;
+    padding: 10px;
+}
+label{
+  margin-left: 17px;
+}
+input{
+  margin-top:50%;
+  margin-left: -120%;
+}
+.search-img {
+
+    margin-top: 3%;
+    margin-left: -35%;
+}
+  }
+  @media only screen and (min-width: 1010px){
+.search-img{
+    width: 86px;
+    height: 84px;
+    /* margin-top: -15%;
+    margin-left: 64%; */
+}
+.cards{
+  /* margin-left: 6%; */
+  text-align: center;
+}
+  }
+
+  @media only screen and (min-width: 550px) and (max-width: 1230px) {
+    input{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.search-img {
+    margin-top: -34%;
+    margin-left: 80%;
+}
+.cards[data-v-2cd27ac0] {
+    padding: 0px;
+ 
+}
+  }
+  @media only screen and (min-width: 1900px){
+
+.search-img {
+    margin-top: -16%;
+    margin-left: 70%;
+}
+  }
